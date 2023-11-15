@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.0.7/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/2f6d60328a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .manrow {
+        font-family: "Manrope", sans-serif;
+      }
+      .s img {
+        height: 400px;
+        width: 900px;
+      }
+    </style>
+  </head>
+  <body class="manrow">
+    <header class="container m-auto md:px-36 bg-base-200 pt-8">
+      <div class="nav md:flex text-center justify-between">
+        <div class="logo font-bold text-4xl">Tea Store</div>
+        <div class="menu">
+          <ul class="flex justify-center">
+            <li class="mr-10">Home</li>
+            <li class="mr-10">Product</li>
+            <li class="mr-10">About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="banar-section">
+        <div class="hero min-h-screen">
+          <div class="hero-content flex-col lg:flex-row justify-between">
+            <div class="">
+              <h1 class="text-6xl md:text-left text-center font-bold">
+                It's good <br />
+                tea time at <br />
+                The Tea House
+              </h1>
+              <p class="py-6 md:text-left text-center">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+              <div class="md:justify-start flex justify-center">
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+            <div class="s z-10">
+              <img src="images/banner.png" class="rounded-lg z-10 shadow-2xl" />
+              <div class="bg-orange-900"></div>
+              <div
+                class="flex -mt-16 z-50 items-center border-spacing-2 shadow-2xl border-2 border-red-400 shadow-indigo-500/40 rounded-md w-64 h-24 pl-4"
+              >
+                <i class="fa-solid fa-star text-3xl mr-3 text-yellow-400"></i>
+                <div>
+                  <h3 class="text-3xl font-extrabold">50gtttttttttt0</h3>
+                  <p>Trust Pilot Ratings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <img src="/images/banner.png" alt="" />
+    </main>
+  </body>
 </html>
